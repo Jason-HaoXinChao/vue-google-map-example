@@ -2,6 +2,8 @@
 ## Vue Google Map
 By: Hao Xin Chao
 
+### Introduction
+
 This project is a basic application with the following functionalities:
 * A search box with autocomplete functionality for the user to input an address.
 * A search button for the search box, the user can also search by pressing enter while focused on the search box.
@@ -27,8 +29,7 @@ Below are languages/frameworks/libraries used to build this project. I tried to 
 
 
 
-<!-- GETTING STARTED -->
-## Instructions
+### Instructions
 
 Before building the project. please make sure you have the latest npm and node.js build installed.
 
