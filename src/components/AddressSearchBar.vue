@@ -70,7 +70,7 @@ function submitAddress() {
             const offset = response.data.rawOffset
             const adjustedTimestamp = timestamp + dstOffset + offset
             const date = new Date(adjustedTimestamp*1000)
-            localTime.value = `${date.getHours()}:${date.getMinutes()}`
+            localTime.value = `${date.getUTCHours()}:${date.getUTCMinutes()}`
         }).catch((e) => {
             console.log(e)
         })
